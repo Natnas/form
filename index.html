@@ -8,17 +8,68 @@
             <body id="main_body" >
                 <div id="form_container">
                     <h1>
-                        <a>Multimedia Club Form</a>
+                        <a>blank</a>
                     </h1>
-                    <form id="form_1042194" class="appnitro"  method="post" action="">
+                    <form class="appnitro" action="">
                         <div class="form_description">
-                            <h2>Multimedia Club Form</h2>
-                            <p>Please add necessary info</p>
+                        <h2>Multimedia Club Registration</h2>
+                        <p>Please provide the necessary information.</p>
                         </div>
+                            <label class="description">Name:</label>
+                            <input id="text" name= "firstname" maxlength="255" size="14">
+                            <label>First</label>&emsp;&emsp;
+                            <input id="text" name= "lastname" maxlength="255" size="14">
+                            <label>Last</label>
                         <br>
-                        <input type="text" name="firstname">
-                        <br><br>
-                        <input type="text" name="lastname">  
+                        <br>
+                            <label class="description">Gender:</label>
+                            <input type="radio" name="sex" value="male">Male&emsp;&emsp;
+                            <input type="radio" name="sex" value="female">Female
+                        <br>
+                        <br>
+                            <label class="description">Email:</label>
+                            <input id="text" name= "email">
+                        <br>
+                        <br>
+                           <label class="description">Address:</label>
+                            <input id="text" name= "firstname" maxlength="255" size="75">                           
+                        <br>
+                        <br>
+                            <label class="description">Phone Number:</label>
+                            <input id="text" name= "number">
+                        <br>
+                        <br> 
+                            <label class="description">Facebook Username:</label>
+                            <input id="text" name= "fb">
+                        <br>
+                        <br>
+                            <label class="description">What do you specialize on?</label>
+                            <input type="checkbox" name="multi1" value="graphic"> Graphic Arts
+                            <br>
+                            <input type="checkbox" name="multi2" value="video"> Video Editting
+                            <br>
+                            <input type="checkbox" name="multi3" value="text"> Text
+                            <br>
+                            <input type="checkbox" name="multi4" value="sound"> Sound Editing
+                            <br>
+                            <input type="checkbox" name="multi5" value="interactvity"> Interactivity
+                            <br>
+                            <br>
+                            <label>Other:</label><input id="text" name= "other">
+                            <br>
+                            <br>
+                            <br>
+                            <label class="description">Who's the better hero?</label>
+                            <select name="hero">
+                            <option value=""></option>
+                            <option value="batman">Batman</option>
+                            <option value="superman">Superman</option>
+                            </select>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit" onclick="alert('Registration Sent')">
                     </form>
                 </div>
             </body>
